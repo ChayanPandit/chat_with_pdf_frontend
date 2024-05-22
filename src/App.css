@@ -138,7 +138,7 @@ nav{
     height: 70vh;
     overflow: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-bottom: 3rem;
     max-width: 200rem;
 }
