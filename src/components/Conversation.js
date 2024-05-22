@@ -41,7 +41,7 @@ function Conversation(){
     return(
         <div class="container" id="conversation">
             <div class="container" id="chats">
-                {chats.map((chat,i)=>(
+                {chats.slice(0).reverse().map((chat,i)=>(
                     <Chat key={i} question={chat.question} answer={chat.answer} />
                 ))}
             </div>
